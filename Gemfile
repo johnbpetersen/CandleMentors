@@ -7,6 +7,9 @@ gem 'rails', '3.1.0'
 
 gem 'sqlite3'
 gem 'devise'
+gem 'forem', :git => "git://github.com/radar/forem.git"
+gem 'forem-theme-twist', :git => "git://github.com/radar/forem-theme-twist.git"
+gem 'will_paginate', '~> 3.0'
 
 
 # Gems used only for assets and not required

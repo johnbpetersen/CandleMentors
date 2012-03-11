@@ -1,4 +1,5 @@
 CandleMentors::Application.routes.draw do
+  mount Forem::Engine, :at => "/forums"
   
   get "pages/home"
 
